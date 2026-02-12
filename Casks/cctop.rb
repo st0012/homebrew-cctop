@@ -11,11 +11,11 @@ cask "cctop" do
 
   on_arm do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-arm64.zip"
-    sha256 "94e1b50dddc45b61377d7841e668087f59f15b696eb2ac9890e1344cb8106932"
+    sha256 "3af05f209f7514d57985df75840b7f39f75ecbc2b5e52cde08f41eedbe59a7b3"
   end
   on_intel do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-x86_64.zip"
-    sha256 "3a7347729df2948edc261320eac18ddf7698901ad477409b43c5fd86b7586491"
+    sha256 "77c34ee9207864fd0fac2d6b844b808abb7fec8db4be6f07bca27ad7c1606212"
   end
 
   name "cctop"
