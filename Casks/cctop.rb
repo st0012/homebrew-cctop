@@ -7,15 +7,15 @@
 #   brew install --cask cctop
 #
 cask "cctop" do
-  version "0.2.0"
+  version "0.4.0"
 
   on_arm do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-arm64.zip"
-    sha256 "1b17015ae1fc1e4220aae2ab5a45b83a28d3d82f71cb09d5883134bef950e6de"
+    sha256 "9ad3011c8a27682033440164db52cc0a93377d7d22bd9190039d33579cdc1bf4"
   end
   on_intel do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-x86_64.zip"
-    sha256 "3967973e13f6f9c0ee846f523dfc28b401b8bb138802f99f9afc9e475a5d9ddb"
+    sha256 "f46314e7db61be66e0a73e3ec00634c8e75fd32445b61cfb699b034fcf89a937"
   end
 
   name "cctop"
@@ -30,7 +30,6 @@ cask "cctop" do
   depends_on macos: ">= :ventura"
 
   app "cctop.app"
-  binary "#{appdir}/cctop.app/Contents/MacOS/cctop"
   binary "#{appdir}/cctop.app/Contents/MacOS/cctop-hook"
 
   caveats <<~EOS
