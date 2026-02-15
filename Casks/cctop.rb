@@ -7,19 +7,19 @@
 #   brew install --cask cctop
 #
 cask "cctop" do
-  version "0.5.1"
+  version "0.6.0"
 
   on_arm do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-arm64.zip"
-    sha256 "386bfab8013bb59cb1182cabbe7770db6de711891bf6ed78f020cf7021bc0a4d"
+    sha256 "89bd913b08b502bff87bba5d50b56e089c1eb7c987977e00f02ea078e4f7d442"
   end
   on_intel do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-x86_64.zip"
-    sha256 "5c0436cc167465779679823089d84b3ecf6da4010b20429ad12bc2e00bb37fac"
+    sha256 "4cc9f301cf223cde567c213d02b1e248cf223c30f12cccbd6d8f100c094d9b58"
   end
 
   name "cctop"
-  desc "Monitor Claude Code sessions from the macOS menu bar"
+  desc "Monitor AI coding sessions from the macOS menu bar"
   homepage "https://github.com/st0012/cctop"
 
   livecheck do
