@@ -7,15 +7,15 @@
 #   brew install --cask cctop
 #
 cask "cctop" do
-  version "0.15.3"
+  version "0.16.0"
 
   on_arm do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-arm64.zip"
-    sha256 "639f0fcd059e08b92bfd447dbb93e129f5e384b85e7db25f03d5d388f7bc8491"
+    sha256 "420f0a24709b264d9027c778ba4875fd3b52be0af20565389da815daf4afcf7b"
   end
   on_intel do
     url "https://github.com/st0012/cctop/releases/download/v#{version}/cctop-macOS-x86_64.zip"
-    sha256 "f2a62c2345ebe9492d1bc51acc14412b31647ca3450353d933926c7687e7bcba"
+    sha256 "63c0b15bd42bb824831d03cde748e93b8630a42a066e548355706d41a5b6b09b"
   end
 
   name "cctop"
